@@ -1,16 +1,12 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <h1>The Dojo Blog</h1>
             <div className="links">
-                <Link to="/">Home</Link>
-                <Link to="/About" style={{
-                    color: "white",
-                    backgroundColor: "#f1356d",
-                    borderRadius: "8px"
-                }}>New Blog</Link>
+                <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink>
+                <NavLink to="/About" className={({ isActive }) => (isActive ? "active" : "")}>New Blog</NavLink>
             </div>
         </nav>
     )
