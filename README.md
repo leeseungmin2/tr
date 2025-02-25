@@ -7,4 +7,8 @@
 5. src/assets/css : CSS 파일
 6. src/assets/img : 이미지 파일
 
+<<<<<<< HEAD
 개발시 필요한 MODAL, GRAPH 등은 ?33
+=======
+개발시 필요한 MODAL, GRAPH 등은 ?222
+>>>>>>> e84642fe27df28e84e6faabca3e82d6b4b311d2f
